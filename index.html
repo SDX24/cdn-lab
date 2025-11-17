@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CDN Lab - jQuery Test</title>
+</head>
+<body>
+  <h1>My CDN Lab Page</h1>
+  <p>If jQuery is working, you should see a message below:</p>
+  <div id="message"></div>
+
+  <script src="jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $("#message").text("jQuery is loaded from a LOCAL file.");
+      console.log("Local jQuery loaded.");
+    });
+  </script>
+</body>
+</html>
